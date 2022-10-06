@@ -11,10 +11,10 @@ function isEven(num) {
 }
 
 describe('isEven', function(){
-    it('should return true if number is even', function() {
+    it('should return true if number is even number', function() {
         isEven(4).should.be.true;
     })
-    it('should return false if number is odd', function() {
+    it('should return false if number is odd number', function() {
         isEven(5).should.be.false;
 })
 });
@@ -36,4 +36,4 @@ describe('add without setup/teardown', function() {
     it('should be 12 when adding 5 to 7', function(){
         add(num,7).should.equal(12);
     });
-})
+});
